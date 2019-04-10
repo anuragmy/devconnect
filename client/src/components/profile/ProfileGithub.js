@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 class ProfileGithub extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      clientId: '26c196bacea7db10cf48',
-      clientSecret: '0885cb690e07d2a93a6afb0891fb552fd9f7aa53',
-      count: 5,
-      sort: 'created: asc',
+      clientId: "8154691a9fbc06393432",
+      clientSecret: "5155d167c09c933d59294a8d873a730ec5f7c7f7",
+      count: 7,
+      sort: "created: asc",
       repos: []
     };
   }
